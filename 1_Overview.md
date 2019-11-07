@@ -82,6 +82,6 @@ if you type ls -l in a directory, you may see a character before the permission.
 - and a few more...
 
 You may also see an item named '.' and another one named '..':
-'.' is a reference to the current folder
-'..' is a reference to the parent folder
+- '.' is a reference to the current folder
+- '..' is a reference to the parent folder
 
