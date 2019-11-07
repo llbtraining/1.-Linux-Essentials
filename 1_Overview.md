@@ -57,7 +57,7 @@ Permissions are set accross of the 3 dimenions (read, write, exec) for:
 3) other users
 
 Typically, the permissions will displayed in this format:
-rwx r-w --x
+rwx r-x --x
 - the first 3 characters set the permissions for the user
 - the next 3 are for the group
 - the last group is for other users
@@ -68,6 +68,11 @@ rwx:
 - the third  character is always 'x' (execution permision) or '-' (no execution permission) 
 
 
+Example:
+rwx r-x --x:
+- the owner and the users of the same group can read the file. Other users cannot.
+- only the owner can write the file
+- everybody can execute the file
 
 
 
