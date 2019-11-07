@@ -28,6 +28,10 @@ A popular approach for Linux distributions is to organise the file system this w
 If you want to put some logic around some odd concepts in the way the file system is organized: http://landley.net/writing/hackermonthly-issue022-pg33.pdf
 
 
+Paritions:
+- Disk partitioning or disk slicing is the creation of one or more regions on secondary storage, so that each region can be managed separately. Partitions are "mounted"
+
+
 Basic Navigation commands
 =========================
 "ls": list the content fo the current directory
