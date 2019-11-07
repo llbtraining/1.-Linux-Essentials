@@ -62,9 +62,10 @@ rwx r-w --x
 - the next 3 are for the group
 - the last group is for other users
 
-the first  character is always 'r' (read permision) or '-' (no read permission) 
-the second character is always 'w' (write permision) or '-' (no write permission) 
-the third  character is always 'x' (execution permision) or '-' (no execution permission) 
+rwx:
+- the first  character is always 'r' (read permision) or '-' (no read permission) 
+- the second character is always 'w' (write permision) or '-' (no write permission) 
+- the third  character is always 'x' (execution permision) or '-' (no execution permission) 
 
 
 
