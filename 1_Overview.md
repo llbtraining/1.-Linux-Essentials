@@ -74,5 +74,14 @@ rwx r-x --x:
 - only the owner can write the file
 - everybody can execute the file
 
+Note: 
+if you type ls -l in a directory, you may see a character before the permission. This indicates the type of the item. 
+- '-' is for a file
+- 'd' is for directory
+- 'l' is for a symbolink Link (shortcut)
+- and a few more...
 
+You may also see an item named '.' and another one named '..':
+'.' is a reference to the current folder
+'..' is a reference to the parent folder
 
