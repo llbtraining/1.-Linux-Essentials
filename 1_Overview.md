@@ -8,3 +8,65 @@ The kernel has 4 jobs:
 - Device drivers: Act as mediator/interpreter between the hardware and processes
 - System calls and security: Receive requests for service from the processes
 
+
+Users Groups
+============
+- Access to Linux is based on users
+- Each user has password and belongs to one or more groups
+- the adminstrator account is "root"
+
+File System 
+============
+A popular approach for Linux distributions is to organise the file system this way:
+- The top folder is "/" (think of  C:\ on Windows)
+- /bin essential user command binaries (for all users)
+- /etc host specific system configuration
+- /home contains the users' home folders
+- /usr second major section of the filesystem
+- /var variable data files
+
+If you want to put some logic around some odd concepts in the way the file system is organized: http://landley.net/writing/hackermonthly-issue022-pg33.pdf
+
+
+Basic Navigation commands
+=========================
+"ls": list the content fo the current directory
+"ls -l": same as above, but add more details to the output (ownership, permissions)
+"ls -a": list all files, even the hidden ones
+"ls -al" or "ls -la": combination of command 3 and 4
+"cd blabla" : move to the blabla folder
+"pwd": shows the current folder
+
+
+Files attributes:
+=================
+Types:
+- file
+- directory
+- symbolink link (shortcut)
+
+Permissions:
+============
+- read permission settings
+- write permission settings
+- execution permission settings
+
+Permissions are set accross of the 3 dimenions (read, write, exec) for:
+1) the owner the file 
+2) the users in the same group of owner of the file 
+3) other users
+
+Typically, the permissions will displayed in this format:
+rwx r-w --x
+- the first 3 characters set the permissions for the user
+- the next 3 are for the group
+- the last group is for other users
+
+the first  character is always 'r' (read permision) or '-' (no read permission) 
+the second character is always 'w' (write permision) or '-' (no write permission) 
+the third  character is always 'x' (execution permision) or '-' (no execution permission) 
+
+
+
+
+
