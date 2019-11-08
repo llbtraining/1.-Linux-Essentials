@@ -43,6 +43,10 @@ Terminate a process (in order of choice)
 - use the provided stop script if there is one!
 - kill SIGTERM 'process_pid'
 
+File permissions
+================
+- chmod to change the permissions of a file
+- chown to change the owner of the file
 
 Network
 ========
