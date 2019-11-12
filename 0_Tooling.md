@@ -11,6 +11,7 @@ Autosave:
 
 Remote: 
 -------
+Full instructions: https://code.visualstudio.com/blogs/2019/07/25/remote-ssh
 On Mac:
 - From the market place, install "Remote - SSH"
 - Once installed, click on the bottom left the icon that looks like ><: 
