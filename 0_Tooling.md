@@ -8,10 +8,10 @@ Autosave:
 
 Remote: instructions below are for Mac
 - From the market place, install "Remote - SSH"
-- Once installed, click on the bottom left the icon that looks like ><: ![](https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.17.0/1567632209042/Microsoft.VisualStudio.Services.Icons.Default =24x24)
+- Once installed, click on the bottom left the icon that looks like ><: ![](https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.17.0/1567632209042/Microsoft.VisualStudio.Services.Icons.Default){: width=24 height=24 style="float:right; padding:16px"}
 
 
-<img style="display: inline-block" src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.17.0/1567632209042/Microsoft.VisualStudio.Services.Icons.Default">{: width=24 height=24 style="float:right; padding:16px"}
+<img style="display: inline-block" src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.17.0/1567632209042/Microsoft.VisualStudio.Services.Icons.Default">
 - Choose connect to host / add new host. Enter the EC2 IP/FQDN then enter
 - Choose a configuration to update, then click Open
 - The section for the new host should look like:
