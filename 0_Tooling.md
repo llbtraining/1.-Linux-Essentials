@@ -11,7 +11,7 @@ Autosave:
 
 Remote: 
 -------
-Instructions below are for Mac:
+On Mac:
 - From the market place, install "Remote - SSH"
 - Once installed, click on the bottom left the icon that looks like ><: 
               <img style="display: inline-block" src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.17.0/1567632209042/Microsoft.VisualStudio.Services.Icons.Default" width="24" height="24">
@@ -25,3 +25,6 @@ Instructions below are for Mac:
          IdentityFile ~/.ssh/your_keypair.pem
          IdentitiesOnly yes
 ```
+
+On Windows:
+- Work in progress
